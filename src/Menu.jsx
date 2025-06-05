@@ -1,3 +1,5 @@
+import './Menu.css'
+
 const Menu = () => {
 
     return (
@@ -6,6 +8,16 @@ const Menu = () => {
                 <li className="nav-item">
                     <a className="nav-link active" href="/home">
                         Home
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/pokeflex">
+                        PokeFlex
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/pokegrid">
+                        PokeGrid
                     </a>
                 </li>
             </ul>
